@@ -1,0 +1,22 @@
+package:
+  name: compass
+  version: 0.12.4
+
+build:
+  number: 2
+
+  script: gem install compass --no-rdoc --no-ri --version 0.12.4
+
+test:
+  commands:
+  - compass --version
+
+requirements:
+  build:
+    - ruby 2.1.1
+  run:
+    - ruby 2.1.1
+
+about:
+  home: http://compass-style.org/
+  license: MIT

@@ -1,0 +1,1 @@
+gem install compass --no-rdoc --no-ri --version 0.12.4
