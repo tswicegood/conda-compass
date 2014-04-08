@@ -9,6 +9,7 @@ platform:
 install:
   - sudo yum erase -q gcc gcc-c++
   - sudo yum install -q gcc gcc-c++
+  - sudo conda config --add channels https://conda.binstar.org/tswicegood
 
 engine:
   - python=2
