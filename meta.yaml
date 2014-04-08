@@ -3,7 +3,7 @@ package:
   version: 0.12.4
 
 build:
-  number: 2
+  number: 3
 
   script: gem install compass --no-rdoc --no-ri --version 0.12.4
 
