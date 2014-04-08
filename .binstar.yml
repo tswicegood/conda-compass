@@ -1,0 +1,19 @@
+package: compass
+user: wakari
+
+platform:
+  - linux-32
+  - linux-64
+  # - osx-64
+
+install:
+  - sudo yum erase -q gcc gcc-c++
+  - sudo yum install -q gcc gcc-c++
+
+engine:
+  - python=2
+
+script:
+  - conda build . --no-test
+
+build_targets: conda
