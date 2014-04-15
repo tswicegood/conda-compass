@@ -3,7 +3,7 @@ package:
   version: 0.12.4
 
 build:
-  number: 3
+  number: {{environ.get('BINSTAR_BUILD', 1)}}
 
   script: gem install compass --no-rdoc --no-ri --version 0.12.4
 
